@@ -13,6 +13,7 @@ namespace SapB1Connector.Core
             SapApplication.Connect(args);
             //Null Guard
             if (ConnectionManager.oApp == null) return;
+            SapEventHandler.Register();
             SapCompany.Connect();
         }
     }

@@ -64,6 +64,7 @@
     <Compile Include="ConnectionManager.cs" />
     <Compile Include="Core\SapApplication.cs" />
     <Compile Include="Core\SapCompany.cs" />
+    <Compile Include="Core\SapEventHandler.cs" />
     <Compile Include="Core\Startup.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
